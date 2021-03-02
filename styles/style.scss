@@ -6,16 +6,43 @@
     box-sizing: border-box;
 }
 
-body {
+.in-tech {
     background: $cinderella;
     height: 100vh;
     padding: 3rem;
 
-    .frame {
-        height: 100%;
-        border: 7px solid black;
-        border-radius: 4rem;
-        background-color: white;
+     .in-tech__body {
+         height: 100%;
+         border: 7px solid black;
+         border-radius: 4rem;
+         background-color: $white;
+
+        .in-tech__nav {
+            font-size: 12px;
+            .in-tech__nav--padding {
+                padding: ($gutter * 2) 3rem;
+            }
+            .in-tech__nav--title {
+                font-weight: bold;
+                padding-left: 1rem;
+            }
+
+            .in-tech__btn {
+                font-size: 12px;
+                border-radius: $gutter * 2;
+            }
+
+            .nav-link {
+                padding-left: 1rem;
+            }
+        }
+
+        .in-tech__banner {
+            height: 20rem;
+            background-color: $cinderella;
+            margin: 1rem 3rem;
+            border-radius: 20px;
+        }
     }
 }
 
