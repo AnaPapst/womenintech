@@ -1,0 +1,21 @@
+@import './variables/colors';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $cinderella;
+    height: 100vh;
+    padding: 3rem;
+
+    .frame {
+        height: 100%;
+        border: 7px solid black;
+        border-radius: 4rem;
+        background-color: white;
+    }
+}
+
