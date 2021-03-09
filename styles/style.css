@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.in-tech {
+  background: #FBE0DC;
+  height: 100vh;
+  padding: 3rem;
+}
+
+.in-tech .in-tech__body {
+  height: 100%;
+  border: 7px solid black;
+  border-radius: 4rem;
+  background-color: white;
+}
+
+.in-tech .in-tech__body .in-tech__nav {
+  font-size: 12px;
+}
+
+.in-tech .in-tech__body .in-tech__nav .in-tech__nav--padding {
+  padding: 16px 3rem;
+}
+
+.in-tech .in-tech__body .in-tech__nav .in-tech__nav--title {
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.in-tech .in-tech__body .in-tech__nav .in-tech__btn {
+  font-size: 12px;
+  border-radius: 16px;
+}
+
+.in-tech .in-tech__body .in-tech__nav .nav-link {
+  padding-left: 1rem;
+}
+
+.in-tech .in-tech__body .in-tech__banner {
+  height: 20rem;
+  background-color: #FBE0DC;
+  margin: 1rem 3rem;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=style.css.map */
