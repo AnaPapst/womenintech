@@ -8,7 +8,6 @@
 
 .in-tech {
     background: $cinderella;
-    height: 100vh;
     padding: 3rem;
 
      .in-tech__body {
@@ -23,25 +22,98 @@
                 padding: ($gutter * 2) 3rem;
             }
             .in-tech__nav--title {
-                font-weight: bold;
                 padding-left: 1rem;
+
+                font-weight: bold;
             }
 
             .in-tech__btn {
                 font-size: 12px;
+
                 border-radius: $gutter * 2;
             }
 
             .nav-link {
                 padding-left: 1rem;
             }
+
+            .in-tech__login {
+                margin-right: 1rem;
+                a {
+                    color: $black;
+                }
+            }
+
+            .in-tech__btn {
+                a {
+                    color: white;
+                }
+            }
         }
 
         .in-tech__banner {
-            height: 20rem;
+            margin: 3rem;
             background-color: $cinderella;
-            margin: 1rem 3rem;
+
+            height: 10rem;
             border-radius: 20px;
+        }
+
+        .in-tech__form {
+            margin: 4rem 0;
+            .in-tech__form--title {
+                h1 {
+                    padding-bottom: .5rem;
+
+                    font-size: 1rem;
+                    text-align: center;
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        width: 60px;
+                        height: 2px;
+                        position: absolute;
+                        background-color: $pixie-green;
+                        bottom: 0;
+                        right: 0;
+                        left: 0;
+                        margin: auto;
+                    }
+                }
+            }
+
+            .in-tech__form__content {
+                padding: 2rem 13rem;
+
+                .in-tech__form__content--input {
+                    margin-bottom: 1.5rem;
+                    label {
+                        position: absolute;
+                        margin: -15px 0 0 10px;
+                    }
+
+                    input {
+                        background-color: $cinderella;
+                        border: none;
+                    }
+                }
+
+                .in-tech__form__content--btn {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .in-tech__btn {
+                        width: 100px;
+
+                        background-color: $black;
+                        color: $white;
+                        border-color: none;
+                    }
+                }
+            }
         }
     }
 }
