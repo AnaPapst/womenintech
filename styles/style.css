@@ -7,7 +7,6 @@
 
 .in-tech {
   background: #FBE0DC;
-  height: 100vh;
   padding: 3rem;
 }
 
@@ -27,8 +26,15 @@
 }
 
 .in-tech .in-tech__body .in-tech__nav .in-tech__nav--title {
+  border: 3px solid;
+  padding: .3rem 1rem .6rem 1rem;
+  border-radius: 20px;
   font-weight: bold;
-  padding-left: 1rem;
+}
+
+.in-tech .in-tech__body .in-tech__nav .in-tech__nav--title .hearth-icon {
+  font-size: 25px;
+  color: red;
 }
 
 .in-tech .in-tech__body .in-tech__nav .in-tech__btn {
@@ -40,10 +46,119 @@
   padding-left: 1rem;
 }
 
+.in-tech .in-tech__body .in-tech__nav .in-tech__login {
+  margin-right: 1rem;
+}
+
+.in-tech .in-tech__body .in-tech__nav .in-tech__login a {
+  color: black;
+}
+
+.in-tech .in-tech__body .in-tech__nav .in-tech__btn a {
+  color: white;
+}
+
 .in-tech .in-tech__body .in-tech__banner {
-  height: 20rem;
-  background-color: #FBE0DC;
-  margin: 1rem 3rem;
+  margin: 3rem;
+  border: 3px solid black;
   border-radius: 20px;
+}
+
+.in-tech .in-tech__body .in-tech__banner .in-tech__course {
+  margin-bottom: 15px;
+}
+
+.in-tech .in-tech__body .in-tech__banner .b-top {
+  border-top: 2px solid black;
+}
+
+.in-tech .in-tech__body .in-tech__banner .in-tech__course p {
+  width: 100%;
+  padding: .5rem 0 .5rem 1rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  font-weight: bold;
+}
+
+.in-tech .in-tech__body .in-tech__banner .in-tech__img {
+  text-align: center;
+}
+
+.in-tech .in-tech__body .in-tech__banner .in-tech__img img {
+  width: 100%;
+}
+
+.in-tech .in-tech__body .in-tech__banner .in-tech__img span {
+  display: block;
+  margin-top: .5rem;
+}
+
+.in-tech .in-tech__body .in-tech__banner .in-tech__img .popin-btn {
+  cursor: pointer;
+}
+
+.in-tech .in-tech__body .in-tech__form {
+  margin: 4rem 0;
+}
+
+.in-tech .in-tech__body .in-tech__form .in-tech__form--title h1 {
+  padding-bottom: .5rem;
+  font-size: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.in-tech .in-tech__body .in-tech__form .in-tech__form--title h1::after {
+  content: '';
+  width: 60px;
+  height: 2px;
+  position: absolute;
+  background-color: #C1E1C1;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.in-tech .in-tech__body .in-tech__form .in-tech__form__content {
+  padding: 2rem 13rem;
+}
+
+.in-tech .in-tech__body .in-tech__form .in-tech__form__content .in-tech__form__content--input {
+  margin-bottom: 1.5rem;
+}
+
+.in-tech .in-tech__body .in-tech__form .in-tech__form__content .in-tech__form__content--input label {
+  position: absolute;
+  margin: -15px 0 0 10px;
+}
+
+.in-tech .in-tech__body .in-tech__form .in-tech__form__content .in-tech__form__content--input input {
+  background-color: #FBE0DC;
+  border: none;
+}
+
+.in-tech .in-tech__body .in-tech__form .in-tech__form__content .in-tech__form__content--btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.in-tech .in-tech__body .in-tech__form .in-tech__form__content .in-tech__form__content--btn .in-tech__btn {
+  width: 100px;
+  background-color: black;
+  color: white;
+  border-color: none;
+}
+
+.in-tech .modal-content .modal-body iframe {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

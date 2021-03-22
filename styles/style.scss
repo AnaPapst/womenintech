@@ -22,9 +22,16 @@
                 padding: ($gutter * 2) 3rem;
             }
             .in-tech__nav--title {
-                padding-left: 1rem;
+                border: 3px solid;
+                padding: .3rem 1rem .6rem 1rem;
+                border-radius: 20px;
 
                 font-weight: bold;
+
+                .hearth-icon {
+                    font-size: 25px;
+                    color: $red;
+                }
             }
 
             .in-tech__btn {
@@ -53,10 +60,40 @@
 
         .in-tech__banner {
             margin: 3rem;
-            background-color: $cinderella;
-
-            height: 10rem;
+            border: 3px solid $black;
             border-radius: 20px;
+
+            .in-tech__course {
+                margin-bottom: 15px;
+            }
+
+            .b-top {
+                border-top: 2px solid black;
+            }
+
+            .in-tech__course p {
+                width: 100%;
+                padding: .5rem 0 .5rem 1rem;
+                text-transform: uppercase;
+                border-bottom: 1px solid  $black;
+                font-weight: bold;
+            }
+
+            .in-tech__img {
+                text-align: center;
+                img {
+                    width: 100%;
+                }
+
+                span {
+                    display: block;
+                    margin-top: .5rem;
+                }
+
+                .popin-btn {
+                    cursor: pointer;
+                }
+            }
         }
 
         .in-tech__form {
@@ -113,6 +150,14 @@
                         border-color: none;
                     }
                 }
+            }
+        }
+    }
+
+    .modal-content {
+        .modal-body {
+            iframe {
+                width: 100%;
             }
         }
     }
